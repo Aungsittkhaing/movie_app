@@ -22,7 +22,6 @@ const Navbar = () => {
     try {
       const response = await axios.get(url);
       const data = await response.data;
-      console.log(data);
       const randomIndex = Math.floor(Math.random() * data.results.length);
       const randomMedia = data.results[randomIndex];
 
