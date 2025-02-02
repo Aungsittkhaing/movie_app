@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121212;
+}
+.overview-Text {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+}
+.movie-Title {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+}
+.navbar-Text {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+}
+.truncate-Text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 250px;
+  white-space: nowrap;
+  font-family: "Poppins", serif;
+}
